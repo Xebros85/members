@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Members Only project based on the Odin Project Ruby on Rails assignment.
 
-Things you may want to cover:
+https://www.theodinproject.com/lessons/ruby-on-rails-members-only
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Created by Xebros - 2025
