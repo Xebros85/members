@@ -23,6 +23,24 @@
   </head>
 
   <body>
+    <header>
+      <h1>Member's Only!</h1>
+    </header>
+
+    <!-- Flash Messages -->
+    <% if notice %>
+      <p class="notice"><%= notice %></p>
+    <% end %>
+
+    <% if alert %>
+      <p class="alert"><%= alert %></p>
+    <% end %>
+
     <%= yield %>
+
+    <footer>
+      <p>Created by Xebros - 2025</p>
+    </footer>
+
   </body>
 </html>
