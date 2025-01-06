@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :posts, only: [ :new, :create, :index ]
+
+  # get "posts/new"
+  # get "posts/create"
+  # get "posts/index"
+
   devise_for :users
   # root "home#index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
@@ -12,5 +18,5 @@ Rails.application.routes.draw do
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
   # Defines the root path route ("/")
-  # root "posts#index"
+  root "posts#index"
 end
